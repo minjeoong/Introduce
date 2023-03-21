@@ -10,8 +10,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Fredericka+the+Great&family=Tillana:wght@500&display=swap');
 body{
     background-image: url(backgroundsample1.jpg);
-    background-size: 120rem;
+    background-size: 100rem;
     perspective: 1500px;
+    zoom: 100%
 }
 h1{
     /* font-family: 'Fredericka the Great', cursive; */

@@ -8,6 +8,7 @@
 body{
     background: url(backgroundsample1.jpg);
     background-size: 120rem;
+    zoom: 100%
 }
 .and{
 
