@@ -12,21 +12,21 @@ body{
 }
 .and{
 
-    height: 26rem;
+    height: 19rem;
     
 }
 
 .recodeplayer{
     position:absolute;
-    height: 23rem;
+    height: 18rem;
 
-    padding: 2rem 0 0 40rem ;
+    padding: 0rem 0 0 34rem ;
 }
 .recode1{
     position:absolute;
-    height: 20.6rem;
+    height: 16rem;
     /* padding: 3.4rem 0 0 40.9rem ; */
-    margin:3.4rem 0 0 40.9rem ;
+    margin:1.2rem 0 0 34.7rem ;
     /* transform: rotate(900deg);
     transform-origin: right center; */
     /* transition: 10s; */
@@ -48,7 +48,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5rem;
+    gap: 1.5rem;
     padding: 0 0 0 0rem;
     
 
@@ -57,23 +57,25 @@ button{
     font-family: 'Hanna', fantasy;
 }
 fieldset{
-    height: 24rem;
-    width: 27rem;
-    margin-bottom: 5rem;
+    height: 19rem;
+    width: 21rem;
+    margin-bottom: 3rem;
+    text-align: center;
 }
 legend{
     padding: 0 2rem 0 2rem;
 }
 .imghobby{
-    width: 13rem;
+    width: 10rem;
 }
 .coke{
-    width: 30rem;
+    width: 24rem;
 }
 h1{
     text-align: center;
     font-family: 'Covered By Your Grace', cursive;
-    font-size:40px
+    font-size:30px;
+    margin-bottom: 5px;
 }
 .out{
     padding: 2rem 0 0 2rem;
@@ -101,7 +103,8 @@ h1{
     text-align: center;
     line-height: 2;
     font-family: 'Hanna', fantasy;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+    font-size: 14.5px;
 }
 .place{
     display:flex;
@@ -111,7 +114,7 @@ h1{
     justify-content: center;
 }
 .place1{
-    width: 20rem;
+    width: 16rem;
     box-shadow: 0 30px 30px -18px rgba(0, 0, 0, 1);   
     margin-bottom: 1rem;
 }
@@ -120,8 +123,8 @@ h1{
     transition: 0.3s;
 }
 .place2{
-    width: 25rem;
-    height: 20rem;
+    width: 20rem;
+    height: 15rem;
     box-shadow: 0 30px 30px -18px rgba(0, 0, 0, 1);   
     margin-bottom: 1rem;
 }
@@ -139,7 +142,7 @@ h1{
 }
 
 .place3{
-    width:20rem;
+    width:16rem;
     box-shadow: 0 30px 30px -18px rgba(0, 0, 0, 1);  
     margin-bottom: 1rem; 
 }
@@ -153,10 +156,11 @@ h4{
 .imgcaption{
     text-align: center;
     font-family: 'Hanna', fantasy;
-    font-size: 20px;
+    font-size: 18px;
     padding: 1rem 0 3rem 0;
 }
 legend{
-    font-size: 22px;
+    font-size: 18px;
     font-family: 'Hanna', fantasy;
+    text-align: center;
 }

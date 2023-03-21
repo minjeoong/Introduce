@@ -3,28 +3,28 @@ body{
     background-image: url(backgroundsample1.jpg);
     background-size: 100rem;
     perspective: 1500px;
-    zoom: 100%
 }
 h1{
     font-family: 'Covered By Your Grace', cursive;
     text-align: center;
     letter-spacing: 0.1rem;
     padding: 2rem 0 0 0;
-    font-size:40px
+    font-size:35px
 }
 h2{
     font-family: 'Covered By Your Grace', cursive;
     letter-spacing: 0.14rem;
     text-align: center;
-    font-size:40px;
+    font-size:30px;
+    margin-top: 1rem;
 }
 .cdplayer{
-    height: 60vh;
+    height: 50vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 0rem;
-    padding: 2rem 3rem 0rem 0rem;
+    padding: 7rem 3rem 0rem 0rem;
     justify-content: center;
     align-items: center;
     transform-style: preserve-3d;
@@ -34,10 +34,10 @@ h2{
 
 .page1 {
     position: relative;
-    width: 20rem;
-    height: 20rem;
+    width: 18rem;
+    height: 18rem;
     /* background-image: url(rc1.png);  */
-    background-size:100%;
+    /* background-size:80%; */
     transition: 0.5s;
     transform:rotateY(45deg);
     transform-style: preserve-3d;
@@ -46,8 +46,8 @@ h2{
 
 .page2{
     position: relative;
-    width: 20rem;
-    height: 20rem;
+    width: 18rem;
+    height: 18rem;
     /* background-image: url(rc2.png);  */
     background-size:100%;
     transition: 0.5s;
@@ -56,8 +56,8 @@ h2{
 
 .page3{
     position: relative;
-    width: 20rem;
-    height: 20rem;
+    width: 18rem;
+    height: 18rem;
     background-size:100%;
     /* background-image: url(rc3.png);  */
     transition: 0.5s;
@@ -113,8 +113,8 @@ h2{
 }
 
 img{
-    width:20rem;
-    height:20rem;
+    width:18rem;
+    height:18rem;
     
 }
 .hobby{
