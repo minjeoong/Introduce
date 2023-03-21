@@ -1,0 +1,133 @@
+
+/* @font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
+/* font-family: 'Tillana', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Tillana:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Fredericka+the+Great&family=Tillana:wght@500&display=swap');
+body{
+    background-image: url(backgroundsample1.jpg);
+    background-size: 120rem;
+    perspective: 1500px;
+}
+h1{
+    /* font-family: 'Fredericka the Great', cursive; */
+    font-family: 'Covered By Your Grace', cursive;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    padding: 2rem 0 0 0;
+    font-size:40px
+}
+h2{
+    font-family: 'Covered By Your Grace', cursive;
+    letter-spacing: 0.14rem;
+    text-align: center;
+    font-size:40px;
+}
+.cdplayer{
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0rem;
+    padding: 2rem 3rem 0rem 0rem;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    /* margin: auto; */
+}
+
+
+.page1 {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    /* background-image: url(rc1.png);  */
+    background-size:100%;
+    transition: 0.5s;
+    transform:rotateY(45deg);
+    transform-style: preserve-3d;
+}
+
+
+.page2{
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    /* background-image: url(rc2.png);  */
+    background-size:100%;
+    transition: 0.5s;
+    transform: rotateY(37deg);
+}
+
+.page3{
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    background-size:100%;
+    /* background-image: url(rc3.png);  */
+    transition: 0.5s;
+    transform: rotateY(32deg);
+}
+
+/* 페이지 을 호버 하면 이미지가 위로 올라옴  */
+.page1:hover > .imgrc1{
+    transform: translateY(-160px);
+}
+.page2:hover > .imgrc2{
+    transform: translateY(-160px);
+}
+.page3:hover > .imgrc3{
+    transform: translateY(-160px);
+}
+
+/* 페이지를 호버하면 화면이 회전 */
+.page1:hover {
+    transform:rotateY(0deg);
+}
+.page2:hover{
+    
+    transform: rotateY(0deg);
+}
+.page3:hover{
+    
+    transform: rotateY(0deg);
+}
+
+/* 꼭 넣어줘야 3D로 보임. */
+.page{
+    transform-style: preserve-3d;
+}
+
+
+.table{
+    position:absolute;
+}
+
+/* 꼭.. 해야 겹쳐짐  */
+.imgrc1{
+    position:absolute;
+    transition:0.5s;
+}
+.imgrc2{
+    position:absolute;
+    transition:0.5s;
+}
+.imgrc3{
+    position:absolute;
+    transition:0.5s;
+}
+
+img{
+    width:20rem;
+    height:20rem;
+    
+}
+.hobby{
+    font-size: 15px;
+    background-color: #fff;
+    
+}

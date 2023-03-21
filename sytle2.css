@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Fredericka+the+Great&family=Tillana:wght@500&display=swap');
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+.hanna * {
+ font-family: 'Hanna', fantasy;
+}
+
+body{
+    background: url(backgroundsample1.jpg);
+    background-size: 120rem;
+}
+.and{
+
+    height: 26rem;
+    
+}
+
+.recodeplayer{
+    position:absolute;
+    height: 23rem;
+
+    padding: 2rem 0 0 40rem ;
+}
+.recode1{
+    position:absolute;
+    height: 20.6rem;
+    /* padding: 3.4rem 0 0 40.9rem ; */
+    margin:3.4rem 0 0 40.9rem ;
+    /* transform: rotate(900deg);
+    transform-origin: right center; */
+    /* transition: 10s; */
+    
+}
+.recode1{
+    animation: rotate_image 10s linear infinite;
+    transform-origin: 50% 50%;
+}
+ 
+@keyframes rotate_image{
+	100% {
+    	transform: rotate(720deg);
+    }
+}
+
+.hobby{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    padding: 0 0 0 0rem;
+    
+
+}
+button{
+    font-family: 'Hanna', fantasy;
+}
+fieldset{
+    height: 24rem;
+    width: 27rem;
+    margin-bottom: 5rem;
+}
+legend{
+    padding: 0 2rem 0 2rem;
+}
+.imghobby{
+    width: 13rem;
+}
+.coke{
+    width: 30rem;
+}
+h1{
+    text-align: center;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size:40px
+}
+.out{
+    padding: 2rem 0 0 2rem;
+
+}
+.btn{
+    border: none;
+    width: 7rem;
+    height: 2rem;
+    font-size: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition: 0.7s;
+    background: none;
+    /* border-radius:10px; */
+
+}
+.btn:hover{
+    border-top:3px solid #000;
+    border-bottom: 3px solid #000;
+
+}
+.Character{
+    text-align: center;
+    line-height: 2;
+    font-family: 'Hanna', fantasy;
+    letter-spacing: 1px;
+}
+.place{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+.place1{
+    width: 20rem;
+    box-shadow: 0 30px 30px -18px rgba(0, 0, 0, 1);   
+    margin-bottom: 1rem;
+}
+.place1:hover{
+    transform:translateY(-10px);
+    transition: 0.3s;
+}
+.place2{
+    width: 25rem;
+    height: 20rem;
+    box-shadow: 0 30px 30px -18px rgba(0, 0, 0, 1);   
+    margin-bottom: 1rem;
+}
+.place2:hover{
+    transform:translateY(-10px);
+    transition: 0.3s;
+}
+/* .place2:hover + .topcaption{
+    display: block;
+} */
+.place3:hover{
+    transform:translateY(-10px);
+    transition: 0.3s;
+
+}
+
+.place3{
+    width:20rem;
+    box-shadow: 0 30px 30px -18px rgba(0, 0, 0, 1);  
+    margin-bottom: 1rem; 
+}
+h4{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Hanna', fantasy;
+    margin-bottom: 0;
+    
+}
+.imgcaption{
+    text-align: center;
+    font-family: 'Hanna', fantasy;
+    font-size: 20px;
+    padding: 1rem 0 3rem 0;
+}
+legend{
+    font-size: 22px;
+    font-family: 'Hanna', fantasy;
+}
